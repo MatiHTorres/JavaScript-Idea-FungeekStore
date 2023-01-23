@@ -1,163 +1,262 @@
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url("../img/FondoPrincipal.png");
+  background-size: 100vw;
 }
 
-#subTitulo{
-    text-align: center;
-    text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.705);
+#subTitulo {
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.705);
+  background-color: rgba(198, 238, 248, 0.795);
+  width: 30%;
+  margin: auto;
 }
-h3{
-    font-size: 2.5vh;
-    text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.705);
-    border-bottom: 2px solid rgb(0, 0, 0);
+header {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px rgb(0, 0, 0) solid;
 }
-#titulo{
-    text-align: center;
-    text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.705);
-    
+.logo {
+  display: block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px rgb(0, 0, 0) solid;
 }
-
-#catalogoProductos{
-    display: flex;
-    flex-wrap: wrap;
-    width: 75vw;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 1.5vh;
-    text-align: center;
-    justify-content: center;
-    border: 2px solid rgba(255, 0, 0, 0.5);
-    margin: auto;
-    
+h3 {
+  font-size: 2.5vh;
+  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.705);
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
-
-.tarjeta{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: white;
-    border: 2px solid rgba(255, 0, 0, 0.5);
-    width: 15%;
-    margin: 5px 5px;
+#titulo {
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.705);
+  
 }
 
-.tarjeta *{
-    margin:1px 1vh
+#catalogoProductos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75vw;
+  background-color: rgba(0, 0, 0, 0.603);
+  font-size: 1.5vh;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 0, 0, 0.5);
+  margin: auto;
 }
 
-.tarjeta button{
-    width: 60%;
-    margin: auto;
-    font-size: 1.5vh;
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  border: 2px solid rgba(255, 0, 0, 0.5);
+  width: 15%;
+  margin: 5px;
+  padding: 10px;
 }
 
-.tarjeta img{
-    max-width: 75%;
-    max-height: 75%;
-    margin: 1vh auto;
-    border: 1px solid red;
+.tarjeta * {
+  margin: 1px 1vh;
 }
 
-#navegador{
-    background-color:lightgrey;
-    height: 6vh;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tarjeta button {
+  width: 60%;
+  margin: auto;
+  font-size: 1.5vh;
 }
 
-#navegador *{
-    margin: 1vh;
+.tarjeta img {
+  max-width: 75%;
+  max-height: 75%;
+  margin: 1vh auto;
+  border: 1px solid red;
 }
 
-#contenedorCarrito{
-    display: flex;
-    flex-wrap: wrap;
-    width: 50vw;
-    background-color: rgba(155, 33, 33, 0.5);
-    font-size: 1.5vh;
-    text-align: center;
-    justify-content: center;
-    border: 2px solid rgba(255, 0, 0, 0.5);
-    margin: auto;
-    
-    
+#navegador {
+  background-color: rgb(255, 255, 255);
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.tarjetaCarrito{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.801);
-    color: black;
-    border: 2px solid rgba(0, 4, 255, 0.5);
-    width: 15%;
-    margin: 5px 5px;
-    
-    
+#navegador * {
+  margin: 1vh;
 }
 
-.tarjetaCarrito img{
-    max-width: 75%;
-    max-height: 75%;
-    margin: 1vh auto;
-    border: 1px solid red;
+#contenedorCarrito {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+  background-color: rgba(155, 33, 33, 0.651);
+  font-size: 1.5vh;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 0, 0, 0.5);
+  margin: auto;
 }
 
-.tarjetaCarrito *{
-    margin: 1px 1vh;
+.tarjetaCarrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.801);
+  color: black;
+  border: 2px solid rgba(0, 4, 255, 0.5);
+  width: 20%;
+  margin: 5px;
+  padding: 10px;
 }
 
-.tarjetaCarrito button{
-    width: 40%;
-    align-items: center;
-    margin: auto;
+.tarjetaCarrito img {
+  max-width: 75%;
+  max-height: 75%;
+  margin: 1vh auto;
+  border: 1px solid red;
 }
 
-div #total{ 
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.tarjetaCarrito * {
+  margin: 1px 1vh;
 }
 
-#catalogo{
-    border-top: 2px solid black;
-    margin: 1vw;
-    
+.tarjetaCarrito button {
+  width: 40%;
+  align-items: center;
+  margin: auto;
 }
 
-#carro{
-    border-top: 2px solid black;
+div #total {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-#botonVaciar{
+#catalogo {
+  margin: 1vw;
+}
+
+#carro {
+  margin: 1vw;
+}
+
+h2 {
+  font-size: 2vmax;
+  
+}
+
+hr {
+  width: 80%;
+  margin: 1vh auto;
+  border-color: rgba(255, 0, 0, 0.753);
+}
+
+#botonVaciar {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+button {
+  box-shadow: 1px 1px 5px rgb(0, 0, 0)
+}
+
+button:hover {
+  transform: scale(1.3);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#numCarrito {
+  color: red;
+  border-radius: 5px;
+  font-style: bold;
+  margin: 0;
+  margin-left: 2px;
+}
+
+#verCarrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#comprar {
+  display: flex;
+  width: 10vw;
+  margin: 1vh;
+  justify-content: center;
+}
+
+.btnBorrar{
+    margin: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .tarjetaCarrito {
+    width: 30%;
+  }
+  #contenedorCarrito {
+    width: 70vw;
+  }
+
+  .tarjeta {
     width: 20%;
-    display: flex;
-    justify-content: center;
-    margin: 10px auto;
-    box-shadow: 2px 2px 5px 1px black     
+  }
+  #catalogoProductos {
+    width: 85vw;
+  }
+  #comprar {
+    width: 20%;
+  }
 }
 
-nav button{
-    box-shadow: 2px 2px 5px 1px black
+@media screen and (max-width: 850px) {
+  .tarjeta {
+    width: 30%;
+  }
+  #comprar {
+    width: 40%;
+  }
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
+@media screen and (max-width: 600px) {
+  .tarjetaCarrito {
+    width: 40%;
+  }
+  #contenedorCarrito {
+    width: 80vw;
+  }
+  #botonVaciar {
+    width: 30%;
+  }
 }
 
-#numCarrito{
-    color: red;
-    border-radius: 5px;
-    font-style: bold;
-    margin: 0;
-    margin-left: 2px;
+@media screen and (max-width: 500px) {
+  .tarjeta {
+    width: 45%;
+  }
+  #catalogoProductos {
+    width: 100vw;
+  }
+  .tarjetaCarrito {
+    width: 80%;
+  }
+  #comprar {
+    width: 75%;
+    margin: 1vh auto 2vh;
+  }
+  #botonVaciar {
+    width: 50%;
+  }
 }
-
-#verCarrito{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-

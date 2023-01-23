@@ -1,0 +1,14 @@
+[
+    { "id": 1, "nombre": "Naruto Uzumaki", "precio": 7500, "serie": "Naruto Shippuden", "stock": 30, "categoria": "Funko", "imgUrl": "./img/FunkoNaruto.jpg" },
+    { "id": 2, "nombre": "Goku SSJ", "precio": 10000, "serie": "Dragon Ball Z", "stock": 35, "categoria": "Figura", "imgUrl": "./img/FiguraGoku.jpg" },
+    { "id": 3, "nombre": "Nezuko Kamado", "precio": 7800, "serie": "Kimetsu no Yaiba", "stock": 38, "categoria": "Funko", "imgUrl": "./img/FunkoNezuko.jpg" },
+    { "id": 4, "nombre": "Levi Ackerman", "precio": 9200, "serie": "Shingeky no kiojin", "stock": 16, "categoria": "Llavero", "imgUrl": "./img/LlaveroFunkoLevi.jpg" },
+    { "id": 5, "nombre": "Tanjiro Kamado", "precio": 6500, "serie": "Kimetsu no Yaiba", "stock": 20, "categoria": "Funko", "imgUrl": "./img/FunkoTanjiro.jpg" },
+    { "id": 6, "nombre": "Gaara", "precio": 8000, "serie": "Naruto Shippuden", "stock": 15, "categoria": "Figura", "imgUrl": "./img/FiguraGaara.jpg" },
+    { "id": 7, "nombre": "Daenerys Targaryen", "precio": 9600, "serie": "Game of Thrones", "stock": 32, "categoria": "Figura", "imgUrl": "./img/FiguraDaenerys.jpg" },
+    { "id": 8, "nombre": "Rick", "precio": 10000, "serie": "Rick y Morty", "stock": 18, "categoria": "Llavero", "imgUrl": "./img/LlaveroFunkoRick.jpg" },
+    { "id": 9, "nombre": "Eren Jaeger", "precio": 9500, "serie": "Shingeki no kyojin", "stock": 22, "categoria": "Figura", "imgUrl": "./img/FiguraEren.jpg" },
+    { "id": 10, "nombre": "Jhon Snow", "precio": 8800, "serie": "Game of Thrones", "stock": 26, "categoria": "Llavero", "imgUrl": "./img/LlaveroFunkoJonSnow.jpg" },
+    { "id": 11, "nombre": "Vegeta", "precio": 9200, "serie": "Dragon Ball Z", "stock": 24, "categoria": "Figura", "imgUrl": "./img/FiguraVegeta.jpg" },
+    { "id": 12, "nombre": "Morty", "precio": 8000, "serie": "Rick y Morty", "stock": 10, "categoria": "Funko", "imgUrl": "./img/FunkoMorty.jpg" }
+]
