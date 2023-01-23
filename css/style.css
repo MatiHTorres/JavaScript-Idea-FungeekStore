@@ -11,9 +11,9 @@ body {
 
 #subTitulo {
   text-align: center;
-  text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.705);
-  background-color: rgba(198, 238, 248, 0.795);
-  width: 30%;
+  text-shadow: 1px 1px 3px rgba(207, 26, 26, 0.705);
+  background: linear-gradient(to right,#050505bd,#f8f8f8,#000000a6);
+  width: 90%;
   margin: auto;
 }
 header {
@@ -32,12 +32,6 @@ h3 {
   text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.705);
   border-bottom: 2px solid rgb(0, 0, 0);
 }
-#titulo {
-  text-align: center;
-  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.705);
-  
-}
-
 #catalogoProductos {
   display: flex;
   flex-wrap: wrap;

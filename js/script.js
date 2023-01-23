@@ -185,14 +185,14 @@ function miPrograma(productos) {
 
         if (carrito.length === 0) {
             Swal.fire({
-                text: 'Error , El carrito está vacio',
+                text: 'Error , El carrito está vacio.',
                 icon: 'error',
                 timer: 1600,
             })
         } else {
             Swal.fire({
                 title: 'Quieres vaciar el carrito?',
-                text: "Se eliminaran todos los productos agregados",
+                text: "Se eliminaran todos los productos agregados.",
                 icon: 'warning',
                 showCancelButton: true,
                 confirmButtonColor: '#3085d6',
@@ -202,7 +202,7 @@ function miPrograma(productos) {
             }).then((result) => {
                 if (result.isConfirmed) {
                     Swal.fire({
-                        text: 'Carrito vaciado correctamente',
+                        text: 'Carrito vaciado correctamente.',
                         icon: 'success',
                         timer: 1600,
 
@@ -222,7 +222,7 @@ function miPrograma(productos) {
     function realizarCompra(){
         if (carrito.length === 0) {
             Swal.fire({
-                text: 'Error , agrege productos para realizar la compra',
+                text: 'Error , agrege productos para realizar la compra.',
                 icon: 'error',
                 timer: 2000,
             })
@@ -239,7 +239,7 @@ function miPrograma(productos) {
                 if (result.isConfirmed) {
                     Swal.fire({
                         title: 'Gracias por comprar en fungeek store , vuelta pronto!',
-                        text: 'Compra realizada correctamente',
+                        text: 'Compra realizada correctamente.',
                         icon: 'success',
                         timer: 3000,
 
