@@ -44,7 +44,10 @@ renderizarCatalogo(productos)
 if (localStorage.getItem("carrito")) {
     carrito = JSON.parse(localStorage.getItem("carrito"))
 }
-contador = JSON.parse(localStorage.getItem("cont"))
+if(localStorage.getItem("cont")){
+    contador = JSON.parse(localStorage.getItem("cont"))
+}
+
 
 //* Renderizo el carrito , si es que tiene contenido en localStorage , ya parseado , se renderiza
 renderizarCarrito(carrito)
