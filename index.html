@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    
+    
+    <title>ENTREGA 3</title>
+</head>
+<body>
+    <h1 id="titulo">FUNGEEK STORE</h1>
+    <div id="navegador">
+        <nav>     
+            <input id="buscador" placeholder="Filtro por nombre o categoria">
+            <button id="btnCatalogo">CATALOGO</button>             
+            <button id="verCarrito" class="fas fa-shopping-cart"><p id="numCarrito">0</p></button>
+            
+        </nav>   
+    </div>
+    
+    <div id="carro">
+        <h2 id="subTitulo">CARRITO</h2>
+        <div id="contenedorCarrito"></div>
+        <button id="botonVaciar">VACIAR CARRITO</button>
+    </div>  
+    <div id="catalogo">
+        <h2 id="subTitulo">CATALOGO</h2>
+    <div id="catalogoProductos"></div>
+    </div>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

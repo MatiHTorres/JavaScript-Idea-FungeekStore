@@ -1,0 +1,163 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#subTitulo{
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.705);
+}
+h3{
+    font-size: 2.5vh;
+    text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.705);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+#titulo{
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.705);
+    
+}
+
+#catalogoProductos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5vh;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    margin: auto;
+    
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    width: 15%;
+    margin: 5px 5px;
+}
+
+.tarjeta *{
+    margin:1px 1vh
+}
+
+.tarjeta button{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5vh;
+}
+
+.tarjeta img{
+    max-width: 75%;
+    max-height: 75%;
+    margin: 1vh auto;
+    border: 1px solid red;
+}
+
+#navegador{
+    background-color:lightgrey;
+    height: 6vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navegador *{
+    margin: 1vh;
+}
+
+#contenedorCarrito{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    background-color: rgba(155, 33, 33, 0.5);
+    font-size: 1.5vh;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    margin: auto;
+    
+    
+}
+
+.tarjetaCarrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.801);
+    color: black;
+    border: 2px solid rgba(0, 4, 255, 0.5);
+    width: 15%;
+    margin: 5px 5px;
+    
+    
+}
+
+.tarjetaCarrito img{
+    max-width: 75%;
+    max-height: 75%;
+    margin: 1vh auto;
+    border: 1px solid red;
+}
+
+.tarjetaCarrito *{
+    margin: 1px 1vh;
+}
+
+.tarjetaCarrito button{
+    width: 40%;
+    align-items: center;
+    margin: auto;
+}
+
+div #total{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#catalogo{
+    border-top: 2px solid black;
+    margin: 1vw;
+    
+}
+
+#carro{
+    border-top: 2px solid black;
+}
+
+#botonVaciar{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px 1px black     
+}
+
+nav button{
+    box-shadow: 2px 2px 5px 1px black
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+#numCarrito{
+    color: red;
+    border-radius: 5px;
+    font-style: bold;
+    margin: 0;
+    margin-left: 2px;
+}
+
+#verCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
